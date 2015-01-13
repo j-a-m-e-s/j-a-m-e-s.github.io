@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* This is a comment! Text here will be ignored by the browser. */
+body {
+     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+     background-color: #FFFFFF;
+     margin: 0 auto;
+     padding: 0;
+     color: #000;
+}
+
+a:link {
+     color: #333333;
+}
+a:visited {
+     color: #AF9BD5;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
+.homePage {
+	background: #FFFFFF;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.header {
+	background: #AAAAAA;
+	text-align: center;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 80px;
+	
+}
+.nav {
+	background: #BBBBBB;
+	margin: 0px;
+	padding: 5;
+	float: left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.content {
+	background: #EEEEEE;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.footer {
+	background: #777777;
+	margin: 0px;
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
